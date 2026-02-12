@@ -5,7 +5,7 @@ import {MatTab, MatTabGroup} from "@angular/material/tabs";
 import {CoursesCardListComponent} from "../courses-card-list/courses-card-list.component";
 import {MatDialog} from "@angular/material/dialog";
 import {MessagesService} from "../messages/messages.service";
-import {catchError, count, from, throwError} from "rxjs";
+import {catchError, from, throwError} from "rxjs";
 import {toObservable, toSignal, outputToObservable, outputFromObservable} from "@angular/core/rxjs-interop";
 
 @Component({
@@ -19,11 +19,5 @@ import {toObservable, toSignal, outputToObservable, outputFromObservable} from "
     styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
-    counter = signal(0);
-
-    increment() {
-        this.counter.set(this.counter() + 1);
-    }
 
 }
