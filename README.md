@@ -1,11 +1,45 @@
 
-##  Modern Angular With Signals Course
+# Modern Angular With Signals – Practice Projects
 
-This repository contains the code of the [Modern Angular With Signals Course](https://angular-university.io/course/angular-signals-course).
+This is my fork of the **Modern Angular With Signals Course** repository from Angular University 🧑‍💻.  
+The purpose of this fork is to complete, experiment with, and improve the exercises as part of my learning journey.
 
-This course repository is updated to Angular 21:
+Original course: https://angular-university.io/course/angular-signals-course :contentReference[oaicite:1]{index=1}
 
-![Modern Angular With Signals](https://d3vigmphadbn9b.cloudfront.net/course-images/large-images/angular-signals-course.jpg)
+
+## 🚀 About the Course
+
+This course teaches how to use the **Angular Signals API** — a modern reactive primitive in Angular — to build reactive and efficient Angular applications.  
+It covers the core concepts of signals such as:
+
+- Creating and updating **signals**
+- Derived values with **computed**
+- Reacting with **effects**
+- Interoperability with RxJS
+- Practical signal-based UI patterns
+
+Throughout the course you’ll build real Angular examples using the Signals API to replace or complement traditional reactive patterns. :contentReference[oaicite:2]{index=2}
+
+## 📦 Technologies
+
+- 🅰️ Angular (latest version used in the course)
+- 🛠 TypeScript
+- 📌 Angular Signals: `signal()`, `computed()`, `effect()`
+- 📁 Git & GitHub
+- RxJS
+
+
+## 🧠 What I Practiced
+
+In this fork I completed the exercises and added my own improvements:
+
+✔️ Core Angular Signals usage  
+✔️ Signal-based components  
+✔️ Computed and derived values  
+✔️ Reactive patterns with minimal RxJS  
+✔️ Effects and side-effect handling  
+✔️ Code improvements and refactors  
+✔️ Additional comments and explanations
 
 # Installation pre-requisites
 
@@ -59,93 +93,4 @@ You can also start the frontend application using the following command:
     ng serve
 
 The application is visible in port 4200: [http://localhost:4200](http://localhost:4200)
-
-# Other Courses
-
-# Angular Core Deep Dive Course
-
-If you are looking for the [Angular Core Deep Dive Course](https://angular-university.io/course/angular-course), you can find it here:
-
-![Angular Core Deep Dive](https://d3vigmphadbn9b.cloudfront.net/course-images/large-images/angular-core-deep-dive-new-2.jpg)
-
-# RxJs In Practice Course
-
-If you are looking for the [RxJs In Practice Course](https://angular-university.io/course/rxjs-course), the repo with the full code can be found here:
-
-![RxJs In Practice Course](https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png)
-
-
-# NgRx In Depth Course
-
-If you are looking for the [NgRx In Depth Course](https://angular-university.io/course/angular-ngrx-course), the repo with the full code can be found here:
-
-![NgRx In Depth Course](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-ngrx-course.png)
-
-
-
-# Angular PWA Course
-
-If you are looking for the [Angular PWA Course](https://angular-university.io/course/angular-pwa-course), the repo with the full code can be found here:
-
-![Angular PWA Course - Build the future of the Web Today](https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png)
-
-# Angular Security Masterclass
-
-If you are looking for the [Angular Security Masterclass](https://angular-university.io/course/angular-security-course), the repo with the full code can be found here:
-
-[Angular Security Masterclass](https://github.com/angular-university/angular-security-course).
-
-![Angular Security Masterclass](https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png)
-
-# Angular Advanced Library Laboratory Course
-
-If you are looking for the Angular Advanced Course, the repo with the full code can be found here:
-
-[Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-university.io/course/angular-advanced-course).
-
-![Angular Advanced Library Laboratory Course: Build Your Own Library](https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png)
-
-
-## RxJs and Reactive Patterns Angular Architecture Course
-
-If you are looking for the RxJs and Reactive Patterns Angular Architecture Course code, the repo with the full code can be found here:
-
-[RxJs and Reactive Patterns Angular Architecture Course](https://angular-university.io/course/reactive-angular-architecture-course)
-
-![RxJs and Reactive Patterns Angular Architecture Course](https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png)
-
-
-
-## Angular Ngrx Reactive Extensions Architecture Course
-
-If you are looking for the Angular Ngrx Reactive Extensions Architecture Course code, the repo with the full code can be found here:
-
-[Angular Ngrx Reactive Extensions Architecture Course](https://angular-university.io/course/angular2-ngrx)
-
-[Github repo for this course](https://github.com/angular-university/ngrx-course)
-
-![Angular Ngrx Course](https://angular-academy.s3.amazonaws.com/thumbnails/ngrx-angular.png)
-
-
-
-## Angular 2 and Firebase - Build a Web Application Course
-
-If you are looking for the Angular 2 and Firebase - Build a Web Application Course code, the repo with the full code can be found here:
-
-[Angular 2 and Firebase - Build a Web Application](https://angular-university.io/course/build-an-application-with-angular2)
-
-[Github repo for this course](https://github.com/angular-university/angular-firebase-app)
-
-![Angular firebase course](https://angular-academy.s3.amazonaws.com/thumbnails/angular_app-firebase-small.jpg)
-
-
-## Complete Typescript 2 Course - Build A REST API
-
-If you are looking for the Complete Typescript 2 Course - Build a REST API, the repo with the full code can be found here:
-
-[https://angular-university.io/course/typescript-2-tutorial](https://github.com/angular-university/complete-typescript-course)
-
-[Github repo for this course](https://github.com/angular-university/complete-typescript-course)
-
-![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
 
