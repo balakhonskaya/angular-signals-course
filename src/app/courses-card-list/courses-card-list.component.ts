@@ -9,8 +9,15 @@ import {MatDialog} from "@angular/material/dialog";
         RouterLink
     ],
     templateUrl: './courses-card-list.component.html',
-    styleUrl: './courses-card-list.component.scss'
+    styleUrl: './courses-card-list.component.scss',
+    standalone: true
 })
 export class CoursesCardListComponent {
+
+    courses = input.required<Course[]>();
+
+    constructor() {
+        
+    }
 
 }
