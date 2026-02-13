@@ -7,7 +7,7 @@ The purpose of this fork is to complete, experiment with, and improve the exerci
 Original course: https://angular-university.io/course/angular-signals-course :contentReference[oaicite:1]{index=1}
 
 
-## 🚀 About the Course
+## About the Course
 
 This course teaches how to use the **Angular Signals API** — a modern reactive primitive in Angular — to build reactive and efficient Angular applications.  
 It covers the core concepts of signals such as:
@@ -20,16 +20,16 @@ It covers the core concepts of signals such as:
 
 Throughout the course you’ll build real Angular examples using the Signals API to replace or complement traditional reactive patterns. :contentReference[oaicite:2]{index=2}
 
-## 📦 Technologies
+## Technologies
 
-- 🅰️ Angular (latest version used in the course)
-- 🛠 TypeScript
-- 📌 Angular Signals: `signal()`, `computed()`, `effect()`
-- 📁 Git & GitHub
+- Angular (latest version used in the course)
+- TypeScript
+- Angular Signals: `signal()`, `computed()`, `effect()`
+- Git & GitHub
 - RxJS
 
 
-## 🧠 What I Practiced
+## What I Practiced
 
 In this fork I completed the exercises and added my own improvements:
 
