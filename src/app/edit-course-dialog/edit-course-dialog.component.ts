@@ -7,6 +7,7 @@ import {LoadingIndicatorComponent} from "../loading/loading.component";
 import {FormBuilder, ReactiveFormsModule} from '@angular/forms';
 import {CourseCategoryComboboxComponent} from "../course-category-combobox/course-category-combobox.component";
 import {CourseCategory} from "../models/course-category.model";
+import { first, firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'edit-course-dialog',
@@ -23,3 +24,20 @@ export class EditCourseDialogComponent {
 
 
 }
+
+export async function openEditCourseDialog(
+  dialog: MatDialog,
+  data: EditCourseDialogData) {
+
+    const config = new MatDialogConfig();
+    config.disableClose = true;
+    config.autoFocus = true;
+    config.width = "400px";
+    config.data = data;
+
+    const close$ = dialog.open(EditCourseDialogComponent, config)
+      .afterClosed();
+
+    return firstValueFrom(close$);
+
+  }
