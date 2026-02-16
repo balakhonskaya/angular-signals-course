@@ -32,6 +32,7 @@ export class CoursesCardListComponent {
                 course
             }
         )
+        console.log('Course edited', newCourse);
     }
 
 }
