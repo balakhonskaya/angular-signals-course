@@ -10,7 +10,7 @@
         <div class="course-actions">
             <button class="btn">VIEW COURSE</button>
             <button class="btn" (click)="onEditCourse(course)">EDIT</button>
-            <img class="delete" src="/assets/icons/delete.svg">
+            <img (click)="onCourseDeleted(course)" class="delete" src="/assets/icons/delete.svg">
         </div>
     </div>
 }
