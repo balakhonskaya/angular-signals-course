@@ -40,6 +40,9 @@ export class HomeComponent {
         return courses.filter(course => course.category === 'ADVANCED')
     })
 
+
+    messagesService = inject(MessagesService);
+
     constructor() {
 
         effect(() => {
@@ -58,7 +61,8 @@ export class HomeComponent {
         }
 
         catch (err) {
-            console.log(err)
+            this.messagesService.showMessage('info', 'Could not load courses. Please try again later.');
+            //console.log(err)
         }
     
     }
