@@ -27,15 +27,15 @@ export class LoginComponent {
     });
     messagesService = inject(MessagesService);
 
-    onLogin() {
+    async onLogin() {
         try {
             const {email, password} = this.form.value;
             if(!email || !password) {
-                this.messagesService.showMessage("error", "Please fill in all fields");
+                this.messagesService.showMessage("error", "Please fill in all fields")
                 return;
             }
-            this.authService.login(email, password);
-            this.router.navigate(['/home']);
+            await this.authService.login(email, password);
+            await this.router.navigate(['/home']);
 
         }
 

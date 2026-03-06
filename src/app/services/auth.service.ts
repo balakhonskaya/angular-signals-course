@@ -21,13 +21,14 @@ export class AuthService {
   http = inject(HttpClient);
 
   async login(email: string, password: string): Promise<User> {
-   const $login = this.http.post<User>(`${environment.apiRoot}/login`, {email, password});
+   const login$ = this.http.post<User>(`${environment.apiRoot}/login`, {email, password});
 
-   const user = await firstValueFrom($login);
+  const user = await firstValueFrom(login$);
 
     this.#userSignal.set(user);
-
+    console.log(this.user);
     return user;
+    
 
   }
 
